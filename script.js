@@ -11,8 +11,8 @@ function addTask() {
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
         let span = document.createElement("span");
-        span.innerHTML = "\u00d7"; // Unicode character for multiplication sign
-        span.classList.add("delete-button"); // Adding a class for easy styling
+        span.innerHTML = "\u00d7"; 
+        span.classList.add("delete-button"); 
         li.appendChild(span);
     }
     inputBox.value = "";
