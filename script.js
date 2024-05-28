@@ -42,7 +42,7 @@ function showTask() {
     }
 }
 
-clearButton.addEventListener("click", function () {
+clearButton.addEventListener("click", function() {
     localStorage.removeItem("data");
     listContainer.innerHTML = "";
 });
